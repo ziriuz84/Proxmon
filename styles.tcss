@@ -1,0 +1,30 @@
+/* styles.css */
+DataTable {
+    border: round magenta;
+    max-height: 25vh;
+    background: black 100%;
+    
+}
+
+#topbar_container{
+    height:3;
+    text-align: justify;
+}
+
+#vm_table_vs{
+    max-height: 25vh;
+}
+
+#topbar{
+    height:3;
+    max-height: 3;
+    border: round $accent;
+}
+
+ToastRack {
+    align: right top;
+}
+
+Toast {
+    padding: 2;
+}
