@@ -18,7 +18,7 @@ DataTable {
 #topbar{
     height:3;
     max-height: 3;
-    border: round $accent;
+    border: round magenta;
 }
 
 ToastRack {

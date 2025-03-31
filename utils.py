@@ -44,9 +44,19 @@ def ssh_execute_command(host, username, password, command, port=22):
 
 # Fetch data from Proxmox API
 def get_data_from_proxapi(url):
+    """Fetch data from Proxmox API"""
     response = requests.get(url, headers=HEADERS, verify=False)
     response.raise_for_status()
     return response.json()['data']
+
+def get_vm_config(vmid,vm_type):
+    """Fetch vm/lxc config"""
+    if vm_type == "vm":
+        guesttype = "qemu"
+    else:
+        guesttype = "lxc"
+    url = f"{PROXMOX_API_URL}/api2/json/nodes/{NODE}/{guesttype}/{vmid}/config"
+    return get_data_from_proxapi(url)
 
 def get_vmids():
     vmids = {"vm": [], "lxc": []}
