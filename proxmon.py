@@ -64,9 +64,12 @@ def toggle_vm(self):
     if selected_vm["vmid"] is None:
         self.notify("Select a VM/LXC first!", severity="warning")
         return
+    
     vmid = selected_vm["vmid"]
     vm_type = selected_vm["type"]
     vm_status = selected_vm["status"].split(" ")[1].lower()
+    data = get_vm_data(selected_vm["vmid"], selected_vm["type"])
+    vm_status = data['status']
     vm_name = selected_vm["name"]
     guesttype = "qemu" if vm_type == "vm" else "lxc"
     if vm_status == 'running':
