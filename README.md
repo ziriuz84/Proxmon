@@ -33,9 +33,14 @@ Run the tool with:
 ```bash
 python proxmon.py
 ```
-
 ## Demo
-![Proxmon Demo](assets/Proxmon_Demo.mp4)
+
+Here is a quick demo of Proxmon in action:
+
+<video controls width="100%">
+    <source src="assets/Proxmon_Demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ## Contributing
 
