@@ -1,6 +1,5 @@
 # Proxmon
-Proxmox monitoring cli tool (maybe mgmt later on!)
-
+Proxmox monitoring cli tool
 ![Proxmon](assets/image.png)
 
 ## Features
