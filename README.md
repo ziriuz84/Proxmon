@@ -1,6 +1,5 @@
 # Proxmon
-Proxmox monitoring cli tool (maybe mgmt later on!)
-
+Proxmox monitoring cli tool
 ![Proxmon](assets/image.png)
 
 ## Features
@@ -36,11 +35,9 @@ python proxmon.py
 ## Demo
 
 Here is a quick demo of Proxmon in action:
+[https://github.com/Sr-vZ/Proxmon/blob/main/assets/Proxmon_Demo.mp4](https://github.com/Sr-vZ/Proxmon/raw/refs/heads/main/assets/Proxmon_Demo.mp4)
 
-<video controls width="100%">
-    <source src="assets/Proxmon_Demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+https://github.com/Sr-vZ/Proxmon/raw/refs/heads/main/assets/Proxmon_Demo.mp4
 
 ## Contributing
 
