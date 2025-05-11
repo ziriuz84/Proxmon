@@ -21,7 +21,7 @@ Proxmox monitoring cli tool
     ```
 3. Install dependencies:
     ```bash
-    pip install .
+    pip install -r requirements.txt
     # or
     uv sync
     ```
